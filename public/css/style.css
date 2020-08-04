@@ -1,0 +1,63 @@
+/*
+Global CSS
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #000;
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+/*
+Common CSS
+*/
+
+/* contacts.index */
+.contacts-index .delete_cookie {
+    display: none;
+}
+.contacts-index .alert-info:hover .delete_cookie {
+    display: inline-block;
+    cursor: pointer;
+}
+.contacts-index .delete {
+    cursor: pointer;
+}
+
+/*Media queries*/
+
+
+/*0  -  576. -  768  -  992  -  1200  -  infinity*/
+
+@media (min-width: 576px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
